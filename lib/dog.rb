@@ -1,9 +1,8 @@
 class Dog
-  def initialize ("Max")
-    @name = "Max"
-
+  def name= (name)
+    @name = name
   end
-   def name
-     @name
-   end
+  def name
+    "#{@name}".strip
+  end
 end
