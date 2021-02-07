@@ -10,4 +10,5 @@ class Dog
   end
   def breed
     "#{@breed}".strip
+  end
 end
